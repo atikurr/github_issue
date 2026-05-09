@@ -6,3 +6,9 @@ const is used for fixed values. It cannot be updated or re-declared after declar
 2️⃣ What is the spread operator (...)?
 
 The spread operator (...) is used to copy or expand arrays and objects.
+
+
+3️⃣ What is the difference between map(), filter(), and forEach()?
+map() creates a new array by changing every element.
+filter() creates a new array with elements that match a condition.
+forEach() only loops through the array and does not return a new array.
