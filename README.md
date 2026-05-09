@@ -4,7 +4,6 @@ let is a modern variable declaration. It can be updated but cannot be re-declare
 const is used for fixed values. It cannot be updated or re-declared after declaration.
 
 2️⃣ What is the spread operator (...)?
-
 The spread operator (...) is used to copy or expand arrays and objects.
 
 
@@ -12,3 +11,6 @@ The spread operator (...) is used to copy or expand arrays and objects.
 map() creates a new array by changing every element.
 filter() creates a new array with elements that match a condition.
 forEach() only loops through the array and does not return a new array.
+
+4️⃣ What is an arrow function?
+An arrow function is a shorter way to write functions in JavaScript.
