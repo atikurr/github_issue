@@ -1,0 +1,131 @@
+body {
+  background: #f4f4f4;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  width: 360px;
+
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+/* Title */
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  color: gray;
+  margin-bottom: 25px;
+}
+
+/* Form */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+input {
+  padding: 12px;
+
+  border: 1px solid #ddd;
+
+  border-radius: 6px;
+
+  outline: none;
+}
+
+input:focus {
+  border-color: #5b21ff;
+}
+
+/* Button */
+
+button {
+  padding: 12px;
+
+  border: none;
+
+  background: #5b21ff;
+
+  color: white;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  font-size: 15px;
+
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #4318c7;
+}
+
+/* Demo Box */
+
+.demo-box {
+  margin-top: 25px;
+
+  background: #f5f5f5;
+
+  padding: 15px;
+
+  border-radius: 6px;
+
+  text-align: center;
+}
+
+.demo-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.demo-box small {
+  display: block;
+  margin-top: 5px;
+  color: #555;
+}

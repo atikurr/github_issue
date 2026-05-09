@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Issues Tracker</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/issues.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-left">
+        <img src="./assets/github-logo.png" alt="Github Logo" />
+        <h2>GitHub Issues Tracker</h2>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <input type="text" id="searchInput" placeholder="Search issues..." />
+        </div>
+        <button class="new-issue-btn">+ New Issue</button>
+      </div>
+    </nav>
+
+    <main class="container">
+      <div class="tabs">
+        <button class="tab-btn active" data-status="all">All</button>
+        <button class="tab-btn" data-status="open">Open</button>
+        <button class="tab-btn" data-status="closed">Closed</button>
+      </div>
+
+      <div class="issues-top">
+        <div class="left-info">
+          <div class="header-with-icon">
+            <div class="icon-wrapper">
+              <img src="./assets/Aperture.png" alt="Aperture" />
+            </div>
+            <div class="text-content">
+              <span class="issue-count">0 Issues</span>
+              <p>Track and manage your project issues</p>
+            </div>
+          </div>
+        </div>
+        <div class="right-info">
+          <div class="status-indicator">
+            <span class="dot open-dot"></span> Open
+          </div>
+          <div class="status-indicator">
+            <span class="dot closed-dot"></span> Closed
+          </div>
+        </div>
+      </div>
+
+      <div id="loader" class="loader"></div>
+
+      <div id="issuesContainer" class="issues-grid"></div>
+    </main>
+
+    <div id="modal" class="modal hidden">
+      <div class="modal-content">
+        <div id="modalBody"></div>
+      </div>
+    </div>
+
+    <script src="./js/issues.js"></script>
+  </body>
+</html>
