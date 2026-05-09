@@ -8,7 +8,6 @@ loginForm.addEventListener("submit", function (e) {
   const password = document.getElementById("password").value;
 
   // Check Credentials
-
   if (username === "admin" && password === "admin123") {
     localStorage.setItem("isLoggedIn", true);
 
