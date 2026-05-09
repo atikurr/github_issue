@@ -105,7 +105,9 @@ searchInput.onkeypress = async (e) => {
     const data = await res.json();
     displayIssues(data.data);
     loader.style.display = "none";
-  }
+
+}
 };
+
 
 fetchIssues();
