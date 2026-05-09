@@ -91,7 +91,7 @@ body {
   color: white;
 }
 
-/* --- Issues Top Section (Aperture Icon) --- */
+/* --- Issues Top Section  --- */
 .issues-top {
   background: white;
   padding: 20px 25px;
@@ -146,7 +146,7 @@ body {
   background: #9b59b6;
 }
 
-/* --- Issues Grid & Card Design (Restore Original) --- */
+/* --- Issues Grid  --- */
 .issues-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -245,7 +245,7 @@ body {
   border: 1px solid #f1c40f;
 }
 
-/* Card Footer (Author & Date) */
+/* Card Footer */
 .card-footer {
   margin-top: auto;
   padding-top: 15px;
@@ -257,7 +257,7 @@ body {
   color: #444;
 }
 
-/* --- Modal (Popup) --- */
+/* --- Popup--- */
 .modal {
   position: fixed;
   top: 0;
