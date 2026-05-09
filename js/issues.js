@@ -34,7 +34,7 @@ const displayIssues = (issues) => {
     const div = document.createElement("div");
     div.className = `issue-card ${issue.status}`;
 
-    // Status images from assets
+    
     const statusImg =
       issue.status === "open"
         ? "./assets/Open-Status.png"
